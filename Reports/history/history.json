@@ -1,0 +1,382 @@
+{
+  "5d6d200e41b48d2f5cc6596a2bba4e89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c84a04861f0dd187",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/c84a04861f0dd187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026077904,
+        "stop" : 1711026078466,
+        "duration" : 562
+      }
+    }, {
+      "uid" : "ba92c062171b47c",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/ba92c062171b47c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961332205,
+        "stop" : 1710961332772,
+        "duration" : 567
+      }
+    } ]
+  },
+  "23b1e030507510e2f256e8d2b7add576" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e913364ec17d8e2b",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/e913364ec17d8e2b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <method-wrapper '__eq__' of str object at 0x00000262A63AE330>('There is no product that matches the search criteria.ABC')\n +    where <method-wrapper '__eq__' of str object at 0x00000262A63AE330> = 'There is no product that matches the search criteria.'.__eq__\n +      where 'There is no product that matches the search criteria.' = <bound method SearchPage.retrieve_no_product_message of <pageobjectmodule.Searchpage.SearchPage object at 0x00000262A6417E10>>()\n +        where <bound method SearchPage.retrieve_no_product_message of <pageobjectmodule.Searchpage.SearchPage object at 0x00000262A6417E10>> = <pageobjectmodule.Searchpage.SearchPage object at 0x00000262A6417E10>.retrieve_no_product_message",
+      "time" : {
+        "start" : 1711026088886,
+        "stop" : 1711026089421,
+        "duration" : 535
+      }
+    }, {
+      "uid" : "dcb59f332aa651c9",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/dcb59f332aa651c9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <method-wrapper '__eq__' of str object at 0x000001D0DBAC14C0>('There is no product that matches the search criteria.ABC')\n +    where <method-wrapper '__eq__' of str object at 0x000001D0DBAC14C0> = 'There is no product that matches the search criteria.'.__eq__\n +      where 'There is no product that matches the search criteria.' = <bound method SearchPage.retrieve_no_product_message of <pageobjectmodule.Searchpage.SearchPage object at 0x000001D0DBAE9810>>()\n +        where <bound method SearchPage.retrieve_no_product_message of <pageobjectmodule.Searchpage.SearchPage object at 0x000001D0DBAE9810>> = <pageobjectmodule.Searchpage.SearchPage object at 0x000001D0DBAE9810>.retrieve_no_product_message",
+      "time" : {
+        "start" : 1710961343588,
+        "stop" : 1710961344492,
+        "duration" : 904
+      }
+    } ]
+  },
+  "d821b7833d41df63c4e55afceed4d0ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c7a705aab7b49b39",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/c7a705aab7b49b39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711025947026,
+        "stop" : 1711025949535,
+        "duration" : 2509
+      }
+    }, {
+      "uid" : "de93f46aa536fc41",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/de93f46aa536fc41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961206054,
+        "stop" : 1710961209966,
+        "duration" : 3912
+      }
+    } ]
+  },
+  "a87129e8bc488f2c2b04474f72c047f1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b7b958aa67ce9d34",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/b7b958aa67ce9d34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026041273,
+        "stop" : 1711026044315,
+        "duration" : 3042
+      }
+    }, {
+      "uid" : "94f1ed7ce2062ee5",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/94f1ed7ce2062ee5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <method-wrapper '__contains__' of str object at 0x000001D0DBAE5390>('Warning: No match for E-Mail Address and/or Password.')\n +    where <method-wrapper '__contains__' of str object at 0x000001D0DBAE5390> = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.'.__contains__\n +      where 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.' = <bound method LoginPage.retrieve_warning_message of <pageobjectmodule.LoginPage.LoginPage object at 0x000001D0DBADBC10>>()\n +        where <bound method LoginPage.retrieve_warning_message of <pageobjectmodule.LoginPage.LoginPage object at 0x000001D0DBADBC10>> = <pageobjectmodule.LoginPage.LoginPage object at 0x000001D0DBADBC10>.retrieve_warning_message",
+      "time" : {
+        "start" : 1710961304002,
+        "stop" : 1710961307184,
+        "duration" : 3182
+      }
+    } ]
+  },
+  "c6bfc0b55695648b3e8937b989ed7a93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8da7a7b6e56d5b7b",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/8da7a7b6e56d5b7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026055324,
+        "stop" : 1711026056543,
+        "duration" : 1219
+      }
+    }, {
+      "uid" : "e8735c2e392830ce",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/e8735c2e392830ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961313577,
+        "stop" : 1710961314768,
+        "duration" : 1191
+      }
+    } ]
+  },
+  "db34cf595bac64a5aeb50ed98a409d1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2be8c3635d4a0d22",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/2be8c3635d4a0d22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711025959313,
+        "stop" : 1711025961389,
+        "duration" : 2076
+      }
+    }, {
+      "uid" : "e06a30b181e0d74e",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/e06a30b181e0d74e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961220895,
+        "stop" : 1710961224136,
+        "duration" : 3241
+      }
+    } ]
+  },
+  "e4694a4a7d7326efc85637916a647168" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "85ab47268fa65c1",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/85ab47268fa65c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711025931320,
+        "stop" : 1711025933813,
+        "duration" : 2493
+      }
+    }, {
+      "uid" : "ff77b88648cdc851",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/ff77b88648cdc851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961191753,
+        "stop" : 1710961195837,
+        "duration" : 4084
+      }
+    } ]
+  },
+  "c38a1fbbb4869d692ce9b5297cd4365e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "14c3839b3c8cf974",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/14c3839b3c8cf974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711025974519,
+        "stop" : 1711025976797,
+        "duration" : 2278
+      }
+    }, {
+      "uid" : "99c1e40d6f2f1842",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/99c1e40d6f2f1842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961234444,
+        "stop" : 1710961237743,
+        "duration" : 3299
+      }
+    } ]
+  },
+  "2a2c4372eb0a4f35e912dba59853f7d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3396bd60a97e49a",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/3396bd60a97e49a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026000628,
+        "stop" : 1711026005238,
+        "duration" : 4610
+      }
+    }, {
+      "uid" : "c48aa51ce327cb79",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/c48aa51ce327cb79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961260220,
+        "stop" : 1710961264967,
+        "duration" : 4747
+      }
+    } ]
+  },
+  "2c72966b699741960d319673f8df6b67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "900a545f47dc2919",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/900a545f47dc2919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026066367,
+        "stop" : 1711026067083,
+        "duration" : 716
+      }
+    }, {
+      "uid" : "62bb864db357b56c",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/62bb864db357b56c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961320776,
+        "stop" : 1710961322068,
+        "duration" : 1292
+      }
+    } ]
+  },
+  "cd3500ccb6b16a398d3c5c6e5203a23d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6e0f01f0505fb949",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/6e0f01f0505fb949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026030497,
+        "stop" : 1711026031578,
+        "duration" : 1081
+      }
+    }, {
+      "uid" : "abd149e28328f657",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/abd149e28328f657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961292545,
+        "stop" : 1710961293813,
+        "duration" : 1268
+      }
+    } ]
+  },
+  "c3ed1c16aa16ce20fde80d6b60e107a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "40c0d8cf6a7d6d31",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/40c0d8cf6a7d6d31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711026016079,
+        "stop" : 1711026020551,
+        "duration" : 4472
+      }
+    }, {
+      "uid" : "af08768e91ada508",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/af08768e91ada508",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961275287,
+        "stop" : 1710961281440,
+        "duration" : 6153
+      }
+    } ]
+  },
+  "cbcec1f24375034fe4be5bb4e48f1f42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "64d69abb82fac1a6",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/11/allure/#testresult/64d69abb82fac1a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711025983541,
+        "stop" : 1711025988093,
+        "duration" : 4552
+      }
+    }, {
+      "uid" : "f841648b6242f314",
+      "reportUrl" : "http://localhost:8080/job/TutorialsNinja/10/allure/#testresult/f841648b6242f314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710961244100,
+        "stop" : 1710961248648,
+        "duration" : 4548
+      }
+    } ]
+  }
+}
